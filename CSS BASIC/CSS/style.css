@@ -1,0 +1,47 @@
+/* # là chọn id  */
+        /* . là chọn class */
+        #li2{ color: red;font-size: 15px}
+        .mau_do{color:yellow}
+        .size30{font-size: 30px}
+
+        #p1{
+            /* chiều cao của thẻ */
+            height: 100px;
+            /* chiều ngang của thẻ */
+            width: 100px;
+        }
+        .box1{
+            height: 500px;
+            width: 500px;
+            /* tô màu nền */
+            background-color: #D1E9FF;
+            /* gán ảnh nền */
+            background-image: url(http://thuthuatphanmem.vn/uploads/2018/06/18/anh-avatar-dep-42_034122099.jpg);
+            background-repeat: no-repeat;
+            /* box-model */
+            padding: 10px;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            
+            /* top: cạnh trên
+            right: cạnh phải
+            left: cạnh trái
+            bottom: cạnh dưới */
+            padding-top: 50px;
+            padding-right: 30px;
+            /* border-top: độ dầy; kiểu viển; màu viền; */
+            border-top: 10px solid red;
+
+            /* khoảng cách giữa các phần tử */
+            margin-bottom: 20px;
+
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+        }
